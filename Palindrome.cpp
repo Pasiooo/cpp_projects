@@ -2,6 +2,8 @@
 #include <vector>
 #include <cmath>
 
+// Sprawdzanie czy podana liczba wygląda identycznie od przodu jak od tyłu.
+// Liczba ujemna jest od razu odrzucana bo podajemy ją z minusem.
 class PalindromeCheck {
 public:
     bool isPalindrome(int x) {
