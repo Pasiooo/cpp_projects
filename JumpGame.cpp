@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+// Celem jest przejście do ostaniego elementu wektora, zaczynając od pierwszego nums[0].
+// Liczba pod indeksem na ktorym się znajdujesz mówi ile maksymalnie możesz się przesunąć do przodu.
 class Solution {
 public:
     bool canJump(std::vector<int>& nums) {
